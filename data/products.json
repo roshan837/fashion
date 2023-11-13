@@ -3,81 +3,81 @@
     {
       "sys": { "id": "1" },
       "fields": {
-        "title": "queen panel bed",
-        "type": "Household",
+        "title": "Jalabiya",
+        "type": "New Arrival",
         "price": 2500,
         "rating": 4,
-        "image": { "fields": { "file": { "url": "./images/product-1.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/p-1.webp" } } }
       }
     },
     {
       "sys": { "id": "2" },
       "fields": {
-        "title": "king panel bed",
-        "type": "Household",
+        "title": "Jalabiya",
+        "type": "New Arrival",
         "price": 3000,
         "rating": 3,
-        "image": { "fields": { "file": { "url": "./images/product-2.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/p-2.webp" } } }
       }
     },
     {
       "sys": { "id": "3" },
       "fields": {
-        "title": "single panel bed",
-        "type": "Household",
+        "title": "Jalabiya",
+        "type": "New Arrival",
         "price": 2200,
         "rating": 5,
-        "image": { "fields": { "file": { "url": "./images/product-3.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/p-3.webp" } } }
       }
     },
     {
       "sys": { "id": "4" },
       "fields": {
-        "title": "twin panel bed",
-        "type": "Household",
+        "title": "Jalabiya",
+        "type": "New Arrival",
         "price": 2800,
         "rating": 4,
-        "image": { "fields": { "file": { "url": "./images/product-4.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/p-4.webp" } } }
       }
     },
     {
       "sys": { "id": "5" },
       "fields": {
-        "title": "fridge",
-        "type": "Kitchen",
+        "title": "Jalabiya",
+        "type": "Traditional",
         "price": 1880,
         "rating": 2,
-        "image": { "fields": { "file": { "url": "./images/product-5.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/p-5.webp" } } }
       }
     },
     {
       "sys": { "id": "6" },
       "fields": {
-        "title": "dresser",
-        "type": "furniture",
+        "title": "Jalabiya",
+        "type": "Traditional",
         "price": 3200,
         "rating": 3,
-        "image": { "fields": { "file": { "url": "./images/product-6.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/p-6.webp" } } }
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "Coombes",
-        "type": "Lounge",
+        "title": "Jalabiya",
+        "type": "Regular",
         "price": 4500,
         "rating": 5,
-        "image": { "fields": { "file": { "url": "./images/product-7.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/p-7.webp" } } }
       }
     },
     {
       "sys": { "id": "8" },
       "fields": {
-        "title": "Keeve Set",
-        "type": "Tables & Chairs",
+        "title": "Jalabiya",
+        "type": "Regular",
         "price": 1300,
         "rating": 4,
-        "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } }
+        "image": { "fields": { "file": { "url": "./images/p-8.webp" } } }
       }
     }
   ]

@@ -21,7 +21,7 @@ const totalBuyPrice = document.querySelector(".total-Buy-Price");
 let cart = [];
 
 class Products {
-  async getProducts() {
+  async getProducts(type) {
     try {
       const result = await fetch("data/products.json");
       let products = await result.json();
@@ -32,7 +32,11 @@ class Products {
         const url = item.fields.image.fields.file.url;
         return { title, price, type, rating, id, url };
       });
-      return data;
+      return data.filter(
+        (product) =>
+          type === "all" ||
+          product.type.toLowerCase().includes(type.toLowerCase())
+      );
     } catch (error) {
       console.log(error);
     }
@@ -273,13 +277,13 @@ class Storage {
   }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => filterProducts());
+
+function filterProducts(type = "all") {
   const p = new Products();
   const ui = new UserInterface();
 
-  p.getProducts().then((data) => {
-    console.log(data);
-
+  p.getProducts(type).then((data) => {
     ui.insertProductsInDom(data);
 
     Storage.saveProducts(data);
@@ -287,7 +291,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ui.getBagButtons();
     ui.cartFuntionality();
   });
-});
+}
 
 cartClose.addEventListener("click", () => {
   const ui = new UserInterface();
